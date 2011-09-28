@@ -193,7 +193,6 @@ module ActiveAdmin
 
     def register_default_assets
       register_stylesheet 'active_admin.css'
-      register_javascript 'active_admin.js'
     end
 
     # Since we're dealing with all our own file loading, we need
