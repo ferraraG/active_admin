@@ -14,6 +14,7 @@ when /^3\.1/
   # These are the gems you have to have for Rails 3.1 to be happy
   gem 'sass-rails'
   gem 'uglifier'
+  gem 'jquery-rails'
 else
   raise "Rails #{rails_version} is not supported yet"
 end
